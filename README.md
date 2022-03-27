@@ -157,7 +157,7 @@ For the sake of standardizing the scoring process, you **must** use the baseline
 
 ### Benchmarking Your Models
 
-One of the most common benchmarks used to evaluate the performance of a regression model is the model's adjusted-$R^2$ score. Unfortunately, you'll need to calculate the adjusted-$R^2$ yourself using the NumPy Python package. 
+One of the most common benchmarks used to evaluate the performance of a regression model is the model's adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score. Unfortunately, you'll need to calculate the adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> yourself using the NumPy Python package. 
 
 First, make sure you import "metrics" from the scikit-learn Python package; the cell where you import all the packages you'll be using should include the following line (you can add to it by importing more from the scikit-learn package, but at the **very least** you will need the following imported):
 
@@ -165,7 +165,7 @@ First, make sure you import "metrics" from the scikit-learn Python package; the 
 from sklearn import datasets, model_selection, metrics
 ```
 
-where "datasets" contains the data set you'll need for the competition, "model_selection" includes the "train_test_split" function for splitting the data, and "metrics" includes the "r2_score" function you'll be using to determine the non-adjusted $R^2$ score of the model.
+where "datasets" contains the data set you'll need for the competition, "model_selection" includes the "train_test_split" function for splitting the data, and "metrics" includes the "r2_score" function you'll be using to determine the non-adjusted <img src="https://render.githubusercontent.com/render/math?math=R^2"> score of the model.
 
 Next, you need to use the explanatory/independent variables data to predict the target/dependent variable's values using your model. As can be seen in the [Task 1 Sample](src/task-one-sample.ipynb), predictions are made from a classical linear regression model using
 
@@ -173,9 +173,9 @@ Next, you need to use the explanatory/independent variables data to predict the 
 y_pred = model.predict(X_test)
 ```
 
-where $y_{pred}$ is the output predictions for the values of $y_{test}$ and $X_{test}$ is the testing data for the explanatory/independent variables. 
+where <img src="https://render.githubusercontent.com/render/math?math=y_{pred}"> is the output predictions for the values of <img src="https://render.githubusercontent.com/render/math?math=y_{test}"> and <img src="https://render.githubusercontent.com/render/math?math=X_{test}"> is the testing data for the explanatory/independent variables. 
 
-Then, you'll calculate the model's non-adjusted $R^2$ score as follows:
+Then, you'll calculate the model's non-adjusted <img src="https://render.githubusercontent.com/render/math?math=R^2"> score as follows:
 
 ```
 r2 = metrics.r2_score(y_test, y_pred)
@@ -187,15 +187,15 @@ At this point, you need to determine the number of observations in the testing s
 n, k = X_test.shape
 ```
 
-Finally, you need to calculate the adjusted-$R^2$ score of your model's performance on the testing set:
+Finally, you need to calculate the adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score of your model's performance on the testing set:
 
 ```
 adj_r2 = 1 - (1 - r2) * ((n - 1) / (n - k - 1))
 ```
 
-The value stored in the "adj_r2" variable is the adjusted-$R^2$ score you'll need to report as part of your submission. 
+The value stored in the "adj_r2" variable is the adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score you'll need to report as part of your submission. 
 
-It's important that you understand that the adjusted-$R^2$ score includes a cost for every additional variable you include in your model. Therefore, it is in your best interest to carefully determine whether or not each model you include has a positive effect on the value of the adjusted-$R^2$ score.
+It's important that you understand that the adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score includes a cost for every additional variable you include in your model. Therefore, it is in your best interest to carefully determine whether or not each model you include has a positive effect on the value of the adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score.
 
 Note: any time you redefine the model, i.e., add or remove explanatory/independent variables, you **must** re-run the cell in your Jupyter notebook where you define the model you're using, and **all** the cells after it. If you don't, the model will **not** update automatically, as each cell is executed independently of those which come after it.
 
@@ -203,11 +203,11 @@ Note: any time you redefine the model, i.e., add or remove explanatory/independe
 
 For your work to be considered in the competition one scoring, you must submit it using [this](https://forms.gle/arfM1TEoj2eXkQZb7) Google form. Your submission **must** include the following components
   - Any source code files pertaining to the main task.
-  - A self-reported adjusted-$R^2$ score (see the [Benchmarking Your Models](#benchmarking-your-models) section for more information on how to do this).
-  - A self-reported number of observations in your **testing set** (variable $n$ in the code displayed in the [Benchmarking Your Models](#benchmarking-your-models) section.).
-  - A self-reported number of explanatory/independent variables used in your model (variable $k$ in the code displayed in the [Benchmarking Your Models](#benchmarking-your-models) section).
+  - A self-reported adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score (see the [Benchmarking Your Models](#benchmarking-your-models) section for more information on how to do this).
+  - A self-reported number of observations in your **testing set** (variable <img src="https://render.githubusercontent.com/render/math?math=n"> in the code displayed in the [Benchmarking Your Models](#benchmarking-your-models) section.).
+  - A self-reported number of explanatory/independent variables used in your model (variable <img src="https://render.githubusercontent.com/render/math?math=k"> in the code displayed in the [Benchmarking Your Models](#benchmarking-your-models) section).
 
-Please note: because we don't know how many people will be participating at this point in time, we are requiring that each participant self-report their adjusted-$R^2$ score in the event that a lot of people submit and we don't have time to inspect everyone's code. However, if we do have enough time to inspect everyone's code and it is determined that your self-reported adjusted-$R^2$ score is higher than what is returned when we run your code by an amount which implies intentional misreporting, **you will be disqualified from the first competition!!!** On a lighter note, if we determine that your self-reported adjusted-$R^2$ is smaller than your code indicates when we run it, we will use the actual (larger) score instead of the self-reported (smaller) score.
+Please note: because we don't know how many people will be participating at this point in time, we are requiring that each participant self-report their adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score in the event that a lot of people submit and we don't have time to inspect everyone's code. However, if we do have enough time to inspect everyone's code and it is determined that your self-reported adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score is higher than what is returned when we run your code by an amount which implies intentional misreporting, **you will be disqualified from the first competition!!!** On a lighter note, if we determine that your self-reported adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> is smaller than your code indicates when we run it, we will use the actual (larger) score instead of the self-reported (smaller) score.
 
 ## Data Visualization Side Task
 
