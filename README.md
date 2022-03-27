@@ -201,7 +201,7 @@ Note: any time you redefine the model, i.e., add or remove explanatory/independe
 
 ### Submitting Your Work
 
-For your work to be considered in the competition one scoring, you must submit it using [this](https://forms.gle/arfM1TEoj2eXkQZb7) Google form. Your submission **must** include the following components
+For your work to be considered in the competition one scoring, you must submit it using [this](https://forms.gle/4wKK9YsekidxRMs17) Google form. Your submission **must** include the following components
   - Any source code files pertaining to the main task.
   - A self-reported adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score (see the [Benchmarking Your Models](#benchmarking-your-models) section for more information on how to do this).
   - A self-reported number of observations in your **testing set** (variable <img src="https://render.githubusercontent.com/render/math?math=n"> in the code displayed in the [Benchmarking Your Models](#benchmarking-your-models) section.).
@@ -211,7 +211,7 @@ Please note: because we don't know how many people will be participating at this
 
 ## Data Visualization Side Task
 
-If you decide to participate in the data visualization side task, then you'll need to create at least three data visualizations using available Python packages. Then, when you're ready to submit, use [this](https://forms.gle/2Ycj5Qv7M1c5t4rf7) Google form to upload the image files for your three **best** visualizations.
+If you decide to participate in the data visualization side task, then you'll need to create at least three data visualizations using available Python packages. Then, when you're ready to submit, use [this](https://forms.gle/UCWCxh1heRDWcurg8) Google form to upload the image files for your three **best** visualizations.
 
 Remember: the data visualization side task is scored independently of the main task, so you can choose to participate in one or the other, or even both. 
 
