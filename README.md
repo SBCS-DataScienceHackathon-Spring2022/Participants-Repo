@@ -187,7 +187,7 @@ At this point, you need to determine the number of observations in the testing s
 n, k = X_test.shape
 ```
 
-Finally, you need to calculate the adjusted-$R^2$ score of your model's performance on the testing set:
+Finally, you need to calculate the adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score of your model's performance on the testing set:
 
 ```
 adj_r2 = 1 - (1 - r2) * ((n - 1) / (n - k - 1))
@@ -207,7 +207,7 @@ For your work to be considered in the competition one scoring, you must submit i
   - A self-reported number of observations in your **testing set** (variable <img src="https://render.githubusercontent.com/render/math?math=n"> in the code displayed in the [Benchmarking Your Models](#benchmarking-your-models) section.).
   - A self-reported number of explanatory/independent variables used in your model (variable <img src="https://render.githubusercontent.com/render/math?math=k"> in the code displayed in the [Benchmarking Your Models](#benchmarking-your-models) section).
 
-Please note: because we don't know how many people will be participating at this point in time, we are requiring that each participant self-report their adjusted-$R^2$ score in the event that a lot of people submit and we don't have time to inspect everyone's code. However, if we do have enough time to inspect everyone's code and it is determined that your self-reported adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score is higher than what is returned when we run your code by an amount which implies intentional misreporting, **you will be disqualified from the first competition!!!** On a lighter note, if we determine that your self-reported adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> is smaller than your code indicates when we run it, we will use the actual (larger) score instead of the self-reported (smaller) score.
+Please note: because we don't know how many people will be participating at this point in time, we are requiring that each participant self-report their adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score in the event that a lot of people submit and we don't have time to inspect everyone's code. However, if we do have enough time to inspect everyone's code and it is determined that your self-reported adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> score is higher than what is returned when we run your code by an amount which implies intentional misreporting, **you will be disqualified from the first competition!!!** On a lighter note, if we determine that your self-reported adjusted-<img src="https://render.githubusercontent.com/render/math?math=R^2"> is smaller than your code indicates when we run it, we will use the actual (larger) score instead of the self-reported (smaller) score.
 
 ## Data Visualization Side Task
 
