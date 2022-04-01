@@ -26,7 +26,7 @@
 
 Welcome to Stony Brook Computing Society's Spring 2022 Data Science Hackathon! Over the course of the month, you'll have the opportunity to participate in four different projects, each of which focuses on a different aspect of data science.
 
-To start off, please register using [this](https://forms.gle/F6bVjkFdHiL8HqbL6) form.
+**To start off, please register using [this](https://forms.gle/F6bVjkFdHiL8HqbL6) form.**
 
 ## Details
 
