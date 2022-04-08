@@ -16,10 +16,12 @@ For those of you who are returning from competition one, welcome back! We'll be 
 
 For those of you who are just joining now, welcome to SBCS's First Data Science Hackathon! Even though you may have missed the regression competition from last week, you still have the chance to participate in the next three competitions! Before you do, though, please register using [this](https://forms.gle/uMxTnndmVwWWEPZ2A) form. You can also learn more about the hackathon's structure and schedule [here](README-competition-one.md). 
 
+For those of you who participated in competition one but haven't submitted for competition one, don't worry! We've extended the deadline for competition one submissions until 12 PM EDT on April 15th (the same time competition two submissions are due). You can still use the submission links in the [competition one README](README-competition-one.md) to submit your work for the main and side tasks of competition one. **Just make sure you submit your competition two work to the competition two link, not the competition one link in the previous README!!!**
+
 ### Schedule
 
 Now that competition one is over, the schedule for the remainder of the hackathon is as follows:
-
+1. Regression (7 days long) : Started at 12 PM EDT on April 1st, now ending at 12 PM EDT on April 15th **(submissions still allowed until then)**.
 2. Simple Classification (7 days long) : Starts at approximately 12:05 PM EDT on April 8th and ends at 12 PM EDT on April 15th. 
 3. Sentiment Analysis (7 days long) : Starts at approximately 12:05 PM EDT on April 15th and ends at 12 PM EDT on April 22nd.
 4. Image Classification (8 days long) : Starts at approximately 12:05 PM EDT and ends at 12 PM EDT on April 30th.
@@ -27,8 +29,6 @@ Now that competition one is over, the schedule for the remainder of the hackatho
 ## Background
 
 The second competition focuses on simple classification. Classification is a [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) practice which invloves using algorithms to classify data into discrete categories based on each data point's observed characteristics (read more [here](https://en.wikipedia.org/wiki/Statistical_classification)). Here, we're focusing on **simple** classification, a term which I am using to mean that the data you'll be using in this competition only contains basic data types, such as integer values, floating point values, characters, strings, Boolean, et cetera. In the next two projects, we'll be using more advanced applications: next week will involve the use of Natural Language Processing (NLP) to some degree, while the final week will involve classifying image data.
-
-For those of you who haven't submitted for competition one, don't worry! We've extended the deadline for competition one submissions until 12 PM EDT on April 15th (the same time competition two submissions are due). You can still use the submission links in the [competition one README](README-competition-one.md) to submit your work for the main and side tasks of competition one. **Just make sure you submit your competition two work to the competition two link, not the competition one link in the previous README!!!**
 
 ### Programming Languages
 
@@ -46,11 +46,11 @@ Make sure you have Python installed on your computer, as well as an environment 
 
 The Main Task once again involves creating a model to beat the baseline model's performance, as defined in the [sample](task-two-sample.ipynb). This time, however, the model is a classification model; you'll be using it to try and predict whether or not a given patient suffered a stroke, based on their provided medical data. Because of the purpose that such a model serves, your focus should be on maximizing the number of cases correctly classified as stroke instances, as compared to the total number of actual stroke instances. This means the metric you should be using is recall, which is defined as
 
-$$recall = \frac{TP}{TP + FN},$$
+<img src="https://render.githubusercontent.com/render/math?math=recall = \frac{TP}{TP + FN}">
 
 where 
-  - $TP:$ the number of true positives (here, the number of patients who did actually suffer from a stroke that were correctly classified as stroke victims by the model).
-  - $FN:$ the number of false negatives (here, the number of patients who did actually suffer from a stroke that were incorrectly classified as not being stroke victims by the model).
+  - <img src="https://render.githubusercontent.com/render/math?math=TP"> : the number of true positives (here, the number of patients who did actually suffer from a stroke that were correctly classified as stroke victims by the model).
+  - <img src="https://render.githubusercontent.com/render/math?math=FN"> the number of false negatives (here, the number of patients who did actually suffer from a stroke that were incorrectly classified as not being stroke victims by the model).
 
 The value of recall that you should be trying to beat is in the [sample](task-two-sample.ipynb). 
 
