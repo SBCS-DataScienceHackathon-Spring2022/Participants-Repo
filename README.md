@@ -42,9 +42,9 @@ For this week's competition, you'll be using a Kaggle data set, found [here](htt
 
 ### Tasks
 
-Make sure you have Python installed on your computer, as well as an environment that you can use to create and edit Jupyter Notebook (.ipynb) files. Also, make sure you have all the necessary Python data science packages installed on your computer; this can be done using the Python package manager pip, or a third-party service like Anaconda. When you've done this, you can use [this sample](task-two-sample.ipynb) to help you get started.
+Make sure you have Python installed on your computer, as well as an environment that you can use to create and edit Jupyter Notebook (.ipynb) files. Also, make sure you have all the necessary Python data science packages installed on your computer; this can be done using the Python package manager pip, or a third-party service like Anaconda. When you've done this, you can use [this sample](src/task-two-sample.ipynb) to help you get started.
 
-The Main Task once again involves creating a model to beat the baseline model's performance, as defined in the [sample](task-two-sample.ipynb). This time, however, the model is a classification model; you'll be using it to try and predict whether or not a given patient suffered a stroke, based on their provided medical data. Because of the purpose that such a model serves, your focus should be on maximizing the number of cases correctly classified as stroke instances, as compared to the total number of actual stroke instances. This means the metric you should be using is recall, which is defined as
+The Main Task once again involves creating a model to beat the baseline model's performance, as defined in the [sample](src/task-two-sample.ipynb). This time, however, the model is a classification model; you'll be using it to try and predict whether or not a given patient suffered a stroke, based on their provided medical data. Because of the purpose that such a model serves, your focus should be on maximizing the number of cases correctly classified as stroke instances, as compared to the total number of actual stroke instances. This means the metric you should be using is recall, which is defined as
 
 <img src="https://render.githubusercontent.com/render/math?math=recall=\frac{TP}{TP - (-FN)}">
 
@@ -54,7 +54,7 @@ where
 
 **Note: GitHub wasn't processing the standard plus sign in the equation above, so I decided to use a double negative instead. You don't need to calculate it using this formula, Python includes this in the scikit-learn package already.**
 
-The value of recall that you should be trying to beat is in the [sample](task-two-sample.ipynb). 
+The value of recall that you should be trying to beat is in the [sample](src/task-two-sample.ipynb). 
 
 The Side Task is once again focusing on data visualization. You should upload your three best visualization images, just like for last week's competition. 
 
