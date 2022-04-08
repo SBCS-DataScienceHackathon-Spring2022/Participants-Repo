@@ -46,7 +46,7 @@ Make sure you have Python installed on your computer, as well as an environment 
 
 The Main Task once again involves creating a model to beat the baseline model's performance, as defined in the [sample](task-two-sample.ipynb). This time, however, the model is a classification model; you'll be using it to try and predict whether or not a given patient suffered a stroke, based on their provided medical data. Because of the purpose that such a model serves, your focus should be on maximizing the number of cases correctly classified as stroke instances, as compared to the total number of actual stroke instances. This means the metric you should be using is recall, which is defined as
 
-<img src="https://render.githubusercontent.com/render/math?math=recall = \frac{TP}{TP + FN}">
+<img src="https://render.githubusercontent.com/render/math?math=recall=\frac{TP}{TP+FN}">
 
 where 
   - <img src="https://render.githubusercontent.com/render/math?math=TP"> : the number of true positives (here, the number of patients who did actually suffer from a stroke that were correctly classified as stroke victims by the model).
