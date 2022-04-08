@@ -28,6 +28,8 @@ Now that competition one is over, the schedule for the remainder of the hackatho
 
 The second competition focuses on simple classification. Classification is a [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) practice which invloves using algorithms to classify data into discrete categories based on each data point's observed characteristics (read more [here](https://en.wikipedia.org/wiki/Statistical_classification)). Here, we're focusing on **simple** classification, a term which I am using to mean that the data you'll be using in this competition only contains basic data types, such as integer values, floating point values, characters, strings, Boolean, et cetera. In the next two projects, we'll be using more advanced applications: next week will involve the use of Natural Language Processing (NLP) to some degree, while the final week will involve classifying image data.
 
+For those of you who haven't submitted for competition one, don't worry! We've extended the deadline for competition one submissions until 12 PM EDT on April 15th (the same time competition two submissions are due). You can still use the submission links in the [competition one README](README-competition-one.md) to submit your work for the main and side tasks of competition one. **Just make sure you submit your competition two work to the competition two link, not the competition one link in the previous README!!!**
+
 ### Programming Languages
 
 Just like in the first competition, we expect you to use the Python programming language and the Jupyter Notebook environment because of their extensive popularity and influence in the professional realm of the data science industry.
