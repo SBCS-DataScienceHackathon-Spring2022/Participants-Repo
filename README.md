@@ -63,3 +63,5 @@ The Side Task is once again focusing on data visualization. You should upload yo
 Please find the submission links for each below:
   - [Main Task: Model Creation](https://forms.gle/WNCz2e3ocKqHttz99)
   - [Side Task: Data Visualization](https://forms.gle/3mCDNHboG7nBt4628)
+
+**Note: the submission links above are for competition two. Please find competition one's submission links [here](README-competition-one.md)!**
