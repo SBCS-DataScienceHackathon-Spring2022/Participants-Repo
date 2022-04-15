@@ -1,7 +1,8 @@
-# SBCS Data Science Hackathon, Competition Two (Simple Classification)
+# SBCS Data Science Hackathon, Competitions One & Two
 
 ## Table of Contents
 
+1. [Update](#update)
 1. [Introduction](#introduction)
     - [Schedule](#schedule)
 1. [Background](#background)
@@ -9,6 +10,12 @@
     - [The Data Set](#the-data-set)
     - [Tasks](#tasks)
 1. [Submission](#submission)
+
+## Update
+
+We've decided to extend both competitions one and two until the end of the month, April 30th 12 PM EDT. Thus, participants are able to continue working and submit their work for *both* projects until then.
+
+You can find the info for competition two on the current README, while the info for competition one is found [here](README-competition-one.md). We're looking forward to continuing to see your work for these competitions. Good luck!
 
 ## Introduction
 
@@ -21,14 +28,12 @@ For those of you who participated in competition one but haven't submitted for c
 ### Schedule
 
 Now that competition one is over, the schedule for the remainder of the hackathon is as follows:
-1. Regression (7 days long) : Started at 12 PM EDT on April 1st, now ending at 12 PM EDT on April 15th **(submissions still allowed until then)**.
-2. Simple Classification (7 days long) : Starts at approximately 12:05 PM EDT on April 8th and ends at 12 PM EDT on April 15th. 
-3. Sentiment Analysis (7 days long) : Starts at approximately 12:05 PM EDT on April 15th and ends at 12 PM EDT on April 22nd.
-4. Image Classification (8 days long) : Starts at approximately 12:05 PM EDT and ends at 12 PM EDT on April 30th.
+1. Regression (7 days long) : Started at 12 PM EDT on April 1st, now ending at 12 PM EDT on April 30th **(submissions still allowed until then)**.
+2. Simple Classification (7 days long) : Started at approximately 12:05 PM EDT on April 8th, now ending at 12 PM EDT on April 30th. 
 
 ## Background
 
-The second competition focuses on simple classification. Classification is a [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) practice which invloves using algorithms to classify data into discrete categories based on each data point's observed characteristics (read more [here](https://en.wikipedia.org/wiki/Statistical_classification)). Here, we're focusing on **simple** classification, a term which I am using to mean that the data you'll be using in this competition only contains basic data types, such as integer values, floating point values, characters, strings, Boolean, et cetera. In the next two projects, we'll be using more advanced applications: next week will involve the use of Natural Language Processing (NLP) to some degree, while the final week will involve classifying image data.
+The second competition focuses on simple classification. Classification is a [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) practice which invloves using algorithms to classify data into discrete categories based on each data point's observed characteristics (read more [here](https://en.wikipedia.org/wiki/Statistical_classification)). Here, we're focusing on **simple** classification, a term which I am using to mean that the data you'll be using in this competition only contains basic data types, such as integer values, floating point values, characters, strings, Boolean, et cetera.
 
 ### Programming Languages
 
